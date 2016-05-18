@@ -14,7 +14,7 @@ typedef vector<int> veci;
 int main()
 {
 	double eta = 0.1;
-	int Nin = 2;
+	int Nin = 12;
 	int Nout = 1;
 	int Nlayer = 8;
 	int layerSize = 5;
