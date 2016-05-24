@@ -38,7 +38,7 @@ int main()
 	target[2][0] = -1;
 	target[3][0] = -1;
 
-	net.train(input,target,eta,2000,true);
+	net.train(input,target,eta,20000,true);
 
 	net.result(input[1],out);
 	for(int i=0;i<out.size();++i) 
